@@ -36,14 +36,14 @@ class MapSampleState extends State<MapSample> {
 
   late Marker _carroMarker;
   final List<LatLng> coordenadas = [
-    LatLng(37.7749, -122.4194),
-    LatLng(37.7897, -122.4230),
-    LatLng(37.7749, -122.4194),
-    LatLng(37.7749, -122.4194),
-    LatLng(37.7755, -122.4180),
-    LatLng(37.7742, -122.4205),
-    LatLng(37.7750, -122.4212),
-    LatLng(37.7757, -122.4188),
+    const LatLng(37.7749, -122.4194),
+    const LatLng(37.7897, -122.4230),
+    const LatLng(37.7749, -122.4194),
+    const LatLng(37.7749, -122.4194),
+    const LatLng(37.7755, -122.4180),
+    const LatLng(37.7742, -122.4205),
+    const LatLng(37.7750, -122.4212),
+    const LatLng(37.7757, -122.4188),
   ];
   int _markerIndex = 0;
 
